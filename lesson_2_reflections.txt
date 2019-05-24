@@ -44,3 +44,16 @@ Q: How do the diagrams help you visualize the branch structure?
 A: I do not care for this question. Diagrams allow me to see the branch
 structure. Seeing the branch structure on paper helps me visualize
 it in my head.
+
+6.
+
+Q: What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+A: Merging two branches together adds all the lines of code that were
+added by each branch, and removes any lines of code that either branch
+removed that were there originally. It results in putting master at
+the head of the merged branches. In git log, all commits from either
+branch will be listed according to timestamp.
+
+
