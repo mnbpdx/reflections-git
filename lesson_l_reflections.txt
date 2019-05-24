@@ -1,0 +1,72 @@
+1.
+
+Q: How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+A: It obviously made it a lot easier, because I didn't
+have to search for the lines that differed, the computer
+did it for me.
+
+2.
+
+Q: How could having easy access to the entire history of a
+file make you a more efficient programmer in the long term?
+
+A: If I want to go back to the way a project was at an earlier
+point in time, having easy access to old versions would
+allow me to quickly make those changes. Also, I could
+collaborate with others on projects without fear of overwriting
+their shit, and vise versa.
+
+3.
+
+Q: What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+
+A: The main advantage to manual saving is that all my commits
+will be at logical save points, making them easier to read.
+Manually commiting also gives the me the opportunity to note
+what was done since the last commit.
+
+4.
+
+Q: Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like GD,
+treat each file separately?
+
+A: In version control systems like GD, files aren't often related
+enough to save them all together in one commit. There would be little
+reason to make changes that affected multiple files. The opposite
+is true for files used on Git.
+
+5.
+
+Q: How can you use the commands git log and git diff to view the
+history of files?
+
+A: Git log allows us to see all the commits made for the given
+repository. Git diff allows us to see the changes made between commits.
+We find the ID's for these commits using git log.
+
+6.
+
+Q: How might using version control make you more confident to make
+changes that could break something?
+
+A: Obviously, I'll be more confident in making risky changes when
+using version control because I can always go back to previous versions
+before the bug. Also, if I'm using VC correctly, I'll always be able
+to find the change that caused the bug.
+
+7.
+
+Q: Now that you have your workspace set up, what do you want to try
+using Git for?
+
+A: I'd like to use Git for all my school projects, though I'm not
+sure exactly how to do that yet. I need to figure out how to set
+up a repository, for starters. Id also like to learn to use it for
+my Android projects, but I don't really get how I'd use Git in a 
+GUI yet. Like, how would I use Android Studio and Git alongside each
+other?
