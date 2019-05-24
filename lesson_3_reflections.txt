@@ -5,3 +5,11 @@ Q: When would you want to use a remote repository rather than keeping all your w
 A: I'd use a remote repository like GitHub to share my work with others. Perhaps this would
 be to showcase my work, make parts of my code available to other users for use in their
 projects, or to collaborate with others on my code.
+
+2.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+A: I may not always be ready to pull changes from a remote repository. I may have code
+I'm working on that wouldn't work correctly with changes made in the remote repository.
