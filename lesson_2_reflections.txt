@@ -16,3 +16,31 @@ A: You add files from the working directory into the repository as a
 commit. The staging area acts as a middle ground before making a commit.
 I think this is here to prevent errors, as I think I've heard that commits
 can't be undone.
+
+3.
+
+Q: How can you use the staging area to make sure you have one commit per
+logical change?
+
+A: The staging area provides a place to review your new commit before
+you make it. You could add the files you want to the staging area, then
+use git diff --staged to compare them to the first commit in the
+repository to make see all the changes you're about to add in the new
+commit.
+
+4.
+
+Q: What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+A: Branches might help if I was making experimental changes, working
+on a new version that I didn't want to merge yet, or working on my
+version of a collaborative project.
+
+5.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: I do not care for this question. Diagrams allow me to see the branch
+structure. Seeing the branch structure on paper helps me visualize
+it in my head.
