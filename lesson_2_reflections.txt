@@ -56,4 +56,16 @@ removed that were there originally. It results in putting master at
 the head of the merged branches. In git log, all commits from either
 branch will be listed according to timestamp.
 
+7.
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+A: I find Git's ratio of automatic to manual merging to be pretty reasonable.
+Git automatically merges when it wont break the code, and doesn't merge
+when there's confusion surrounding changes to the same parts of files.
+I think it makes sense to be really conservative on making automatic
+changes, because it'd be a total mess to go back and parse out where Git made
+mistakes in choosing lines to keep/remove.7.
+
 
