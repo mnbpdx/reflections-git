@@ -37,3 +37,14 @@ A: Having a copy of the last known state of the remote on the local device allow
 user to compare their local branch to the remote branch offline. It also allows for the
 "upload" (fetch) and merging to be done separately. This way the user can compare the
 branches on their local machine and resolve any merge conflicts there.
+
+5.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+A: Collaborating wtihout using Git or GitHub would be much harder. My collaborater
+and I would have to do much more work to carefully make sure we weren't working on the
+same code, otherwise merging our code would be a nightmare. We wouldn't have a history
+of the changes to our code, so that'd make coding individually harder. Experimenting
+would be more risky, since we could never go back to earlier versions of our code.
