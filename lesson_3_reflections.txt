@@ -13,3 +13,17 @@ stay up-to-date with your remote repository?
 
 A: I may not always be ready to pull changes from a remote repository. I may have code
 I'm working on that wouldn't work correctly with changes made in the remote repository.
+
+3.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+A: A clone is a copy of a repository. You can use the command "clone" to create a clone of
+a Github repository on your local system. A branch is a chain of commits within a
+repository. A fork is a Github specific copy of a repository within Github, that contains
+metadata that traces copies back to the original repository. A fork is used to obtain a
+copy of other people's code on Github. Cloning is used to copy a repository on Github 
+(or elsewhere) to a local machine. Branching is used to create new independent versions 
+of a project within a repository that are different from other branches and your master
+branch. You might create a branch for a beta version of a program, etc.
